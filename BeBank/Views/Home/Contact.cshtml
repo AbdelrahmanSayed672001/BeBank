@@ -1,0 +1,131 @@
+﻿@{
+    Layout = "/Views/Shared/_HomePageLayout.cshtml";
+}
+
+
+@model Contact
+
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="~/cssHomePage/bootstrap.min.css">
+        <link rel="stylesheet" href="~/cssHomePage/jquery-ui.css">
+        <link rel="stylesheet" href="~/cssHomePage/owl.carousel.min.css">
+        <link rel="stylesheet" href="~/cssHomePage/owl.theme.default.min.css">
+        <link rel="stylesheet" href="~/cssHomePage/owl.theme.default.min.css">
+
+        <link rel="stylesheet" href="~/cssHomePage/jquery.fancybox.min.css">
+
+        <link rel="stylesheet" href="~/cssHomePage/bootstrap-datepicker.css">
+
+        <link rel="stylesheet" href="~/fonts/flaticon/font/flaticon.css">
+
+        <link rel="stylesheet" href="~/cssHomePage/aos.css">
+
+        <link rel="stylesheet" href="~/cssHomePage/style.css">
+    </head>
+    <body>
+
+        <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>42 Al-Tahrir St. Al-Sharabya, Cairo, Egypt</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a href="#">+20 1119279001</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a href="#">abdelrahmansayed865@gmail.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            
+
+            <form asp-action="SaveContact" class="p-5 bg-white" id="next">
+              
+              <h2 class="h4 text-black mb-5">Contact Form</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" asp-for="FName" class="form-control" required="">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" asp-for="LName" class="form-control" required="">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" asp-for="Email" class="form-control" required="">
+                </div>
+              </div>
+
+              
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label> 
+                  <textarea  asp-for="Subject" required="" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+       
+
+    </body>
+
+  <script src="~/jsHomePage/jquery-3.3.1.min.js"></script>
+  <script src="~/jsHomePage/jquery-ui.js"></script>
+  <script src="~/jsHomePage/popper.min.js"></script>
+  <script src="~/jsHomePage/bootstrap.min.js"></script>
+  <script src="~/jsHomePage/owl.carousel.min.js"></script>
+  <script src="~/jsHomePage/jquery.countdown.min.js"></script>
+  <script src="~/jsHomePage/jquery.easing.1.3.js"></script>
+  <script src="~/jsHomePage/aos.js"></script>
+  <script src="~/jsHomePage/jquery.fancybox.min.js"></script>
+  <script src="~/jsHomePage/jquery.sticky.js"></script>
+  <script src="~/jsHomePage/isotope.pkgd.min.js"></script>
+  <script src="~/jsHomePage/main.js"></script>
+
+
+</html>
+
+
+
+

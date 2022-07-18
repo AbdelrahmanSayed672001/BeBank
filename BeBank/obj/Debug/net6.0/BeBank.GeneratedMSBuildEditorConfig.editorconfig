@@ -1,0 +1,156 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BeBank
+build_property.RootNamespace = BeBank
+build_property.ProjectDir = F:\Projects\My projects in ASP.Net\BeBank\BeBank\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Projects\My projects in ASP.Net\BeBank\BeBank
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/Deposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvc2l0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/EditInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/ShowInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/VerifyCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJpZnlDb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Home/Withdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaXRoZHJhdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/Deposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXERlcG9zaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/EditInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXEVkaXRJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXEhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/ShowInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXFNob3dJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/VerifyCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXFZlcmlmeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Home/Withdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xIb21lXFdpdGhkcmF3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/_EmptyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FbXB0eUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-rhembuefaw
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/_HomePageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lUGFnZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-3rvc9vk990
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2i06llomxy
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/_EmptyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcX0VtcHR5TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-r7oqd3n1zv
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/_HomePageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcX0hvbWVQYWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-djfa170b2h
+
+[F:/Projects/My projects in ASP.Net/BeBank/BeBank/wwwroot/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-xayg4wu7yz

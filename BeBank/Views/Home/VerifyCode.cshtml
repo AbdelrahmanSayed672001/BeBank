@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "/Views/Shared/_EmptyLayout.cshtml";
+}
+
+@model OTP
+
+<html>
+    <head>
+        <title>Be Bank</title>
+        <link rel="stylesheet" href="~/css/loginForm.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+        <link href="~/css/Icon.png" rel="shortcut icon" />
+    </head>
+    
+    <body>
+
+            <div class="container">
+			<div class="d-flex justify-content-center h-100">
+				<div class="card">
+					<div class="card-header">
+						<h3 style="margin-left:74px;">Verification Code</h3>
+						
+					</div>
+					<div class="card-body">
+						<form asp-action="addOTP">
+							
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-key"></i></span>
+								</div>
+								<input type="text" class="form-control" asp-for="VerifyCode" placeholder="xxxxx" style="margin-top:20px;" required="">
+							</div>
+							
+							<div class="form-group">
+								<input type="submit"  class="btn float-right login_btn">
+							</div>
+						</form>
+					</div>
+					
+		</div>
+	</div>
+		</div>
+
+
+    </body>
+
+</html>
+
+
+@{
+    if (TempData["WelcomeMSG"] != null)
+    {
+    <script>
+                alert("@TempData["WelcomeMSG"]")    
+
+    </script>
+    }
+    if (TempData["OTPError"]!=null)
+    {
+    <script>
+            alert("@TempData["OTPError"]")    
+
+    </script>
+    }
+    
+}
+
+

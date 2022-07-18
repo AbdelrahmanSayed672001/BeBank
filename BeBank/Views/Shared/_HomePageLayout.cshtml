@@ -1,0 +1,209 @@
+﻿
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Be Bank</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/fonts/icomoon/style.css">
+    <link href="~/css/Icon.png" rel="shortcut icon" />
+
+    <link rel="stylesheet" href="~/cssHomePage/bootstrap.min.css">
+    <link rel="stylesheet" href="~/cssHomePage/jquery-ui.css">
+    <link rel="stylesheet" href="~/cssHomePage/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/cssHomePage/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/cssHomePage/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/cssHomePage/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="~/cssHomePage/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="~/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="~/cssHomePage/aos.css">
+
+    <link rel="stylesheet" href="~/cssHomePage/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Be Bank<span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="/Home/HomePage/@TempData["UserId"]" class="nav-link">Home</a></li>
+                <li><a href="/Home/Contact/@TempData["UserId"]" class="nav-link">Contact us</a></li>
+                 <li><a href="/Home/ShowInfo/@TempData["UserId"]" class="nav-link">My info</a></li>
+                 <li><a href="" class="nav-link"> Hello @TempData["UserUsername"]</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="site-blocks-cover overlay" style="background-image: url('/images/hero_2.jpg'); "  data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Banking Solutions</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">
+                    All banking problems are solved by using Be Bank website.
+                </p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/Home/Contact" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Confidence</h1>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/Home/Contact" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Safety</h1>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/Home/Contact" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Saving</h1>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/Home/Contact" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+      <a href="#next" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>
+
+    
+    @RenderBody()
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>
+                    We Solve Your Financial Problem
+                </p>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  
+                  <li><a href="#home-section" class="smoothscroll">Home</a></li>
+                  <li><a href="/Home/ShowInfo/@TempData["UserId"]" class="smoothscroll">My info</a></li>
+                  <li><a href="/Home/Contact/@TempData["UserId"]" class="smoothscroll">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 footer-social">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              
+              <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved 
+                <i class="icon-heart-o" aria-hidden="true"></i> by <a href="/Home" target="_blank">Be Bank</a>
+              </p>
+             
+        
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="~/jsHomePage/jquery-3.3.1.min.js"></script>
+  <script src="~/jsHomePage/jquery-ui.js"></script>
+  <script src="~/jsHomePage/popper.min.js"></script>
+  <script src="~/jsHomePage/bootstrap.min.js"></script>
+  <script src="~/jsHomePage/owl.carousel.min.js"></script>
+  <script src="~/jsHomePage/jquery.countdown.min.js"></script>
+  <script src="~/jsHomePage/jquery.easing.1.3.js"></script>
+  <script src="~/jsHomePage/aos.js"></script>
+  <script src="~/jsHomePage/jquery.fancybox.min.js"></script>
+  <script src="~/jsHomePage/jquery.sticky.js"></script>
+  <script src="~/jsHomePage/isotope.pkgd.min.js"></script>
+  <script src="~/jsHomePage/main.js"></script>
+
+  
+  </body>
+</html>
+

@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<html>
+    <body>
+
+       
+
+        <table class="table table-striped" id="next">
+          <thead>
+            <tr>
+      
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Password</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Balance</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+      
+              <td>@TempData["UserUsername"]</td>
+              <td>@TempData["UserEmail"]</td>
+              <td>@TempData["UserPassword"]</td>
+              <td>@TempData["UserPhone"]</td>
+              <td>@TempData["UserBalance"]</td>
+              <td> 
+                  <a href="/Home/EditInfo/@TempData["UserId"]">
+                    <input type="button" class="btn btn-success" value="Edit"/>
+                  </a>
+      
+              </td>
+            </tr>
+  
+          </tbody>
+        </table>
+
+
+
+
+    </body>
+</html>
